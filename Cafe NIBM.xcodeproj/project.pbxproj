@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B94641DE6382140C7370F48 /* Pods_Cafe_NIBM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77A4830FA98C9E40D074CDF /* Pods_Cafe_NIBM.framework */; };
+		560913CB261852210041545C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560913CA261852210041545C /* AppDelegate.swift */; };
+		560913CD261852210041545C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560913CC261852210041545C /* SceneDelegate.swift */; };
+		560913D4261852220041545C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560913D3261852220041545C /* Assets.xcassets */; };
+		560913D7261852220041545C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560913D5261852220041545C /* LaunchScreen.storyboard */; };
+		567040EE2622C1C200EA84BA /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567040EC2622C1C200EA84BA /* FoodTableViewCell.swift */; };
+		567040EF2622C1C200EA84BA /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 567040ED2622C1C200EA84BA /* FoodTableViewCell.xib */; };
+		567040F12623606800EA84BA /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567040F02623606800EA84BA /* InputValidator.swift */; };
+		5678FC5326217F8F00D9023B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5678FC5226217F8F00D9023B /* Main.storyboard */; };
+		5678FC562621819200D9023B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5678FC552621819200D9023B /* GoogleService-Info.plist */; };
+		5678FC582621824400D9023B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678FC572621824400D9023B /* SignInViewController.swift */; };
+		5678FC5A2621857E00D9023B /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678FC592621857E00D9023B /* Entity.swift */; };
+		56FD00012621AEF300380457 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD00002621AEF300380457 /* SessionManager.swift */; };
+		56FD00032621B85C00380457 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD00022621B85C00380457 /* FoodViewController.swift */; };
+		56FDFFFE26219C7000380457 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FDFFFD26219C7000380457 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B7881B4302331288CFAA515 /* Pods-Cafe NIBM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe NIBM.release.xcconfig"; path = "Target Support Files/Pods-Cafe NIBM/Pods-Cafe NIBM.release.xcconfig"; sourceTree = "<group>"; };
+		560913C7261852210041545C /* Cafe NIBM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cafe NIBM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560913CA261852210041545C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		560913CC261852210041545C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		560913D3261852220041545C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560913D6261852220041545C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		560913D8261852220041545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567040EC2622C1C200EA84BA /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		567040ED2622C1C200EA84BA /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		567040F02623606800EA84BA /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
+		5678FC5226217F8F00D9023B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5678FC552621819200D9023B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5678FC572621824400D9023B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5678FC592621857E00D9023B /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		56FD00002621AEF300380457 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		56FD00022621B85C00380457 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		56FDFFFD26219C7000380457 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B5D010087CEC8537A5760FC9 /* Pods-Cafe NIBM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe NIBM.debug.xcconfig"; path = "Target Support Files/Pods-Cafe NIBM/Pods-Cafe NIBM.debug.xcconfig"; sourceTree = "<group>"; };
+		B77A4830FA98C9E40D074CDF /* Pods_Cafe_NIBM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_NIBM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560913C4261852210041545C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B94641DE6382140C7370F48 /* Pods_Cafe_NIBM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04991FC19D7892E1286385C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B77A4830FA98C9E40D074CDF /* Pods_Cafe_NIBM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		560913BE261852210041545C = {
+			isa = PBXGroup;
+			children = (
+				560913C9261852210041545C /* Cafe NIBM */,
+				560913C8261852210041545C /* Products */,
+				EB90BDA4EA864E980DABEBCF /* Pods */,
+				04991FC19D7892E1286385C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		560913C8261852210041545C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560913C7261852210041545C /* Cafe NIBM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560913C9261852210041545C /* Cafe NIBM */ = {
+			isa = PBXGroup;
+			children = (
+				56FD00042621BAF400380457 /* TableViewCells */,
+				56FDFFFF2621AEDF00380457 /* Util */,
+				564AF8E726217D18007AAD2D /* Controllers */,
+				564AF8E626217D12007AAD2D /* Models */,
+				5678FC5426217FE100D9023B /* Views */,
+				5678FC552621819200D9023B /* GoogleService-Info.plist */,
+				560913CA261852210041545C /* AppDelegate.swift */,
+				560913CC261852210041545C /* SceneDelegate.swift */,
+				560913D3261852220041545C /* Assets.xcassets */,
+				560913D5261852220041545C /* LaunchScreen.storyboard */,
+				560913D8261852220041545C /* Info.plist */,
+			);
+			path = "Cafe NIBM";
+			sourceTree = "<group>";
+		};
+		564AF8E626217D12007AAD2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5678FC592621857E00D9023B /* Entity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		564AF8E726217D18007AAD2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5678FC572621824400D9023B /* SignInViewController.swift */,
+				56FDFFFD26219C7000380457 /* SignUpViewController.swift */,
+				56FD00022621B85C00380457 /* FoodViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5678FC5426217FE100D9023B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5678FC5226217F8F00D9023B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56FD00042621BAF400380457 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				567040EC2622C1C200EA84BA /* FoodTableViewCell.swift */,
+				567040ED2622C1C200EA84BA /* FoodTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		56FDFFFF2621AEDF00380457 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				56FD00002621AEF300380457 /* SessionManager.swift */,
+				567040F02623606800EA84BA /* InputValidator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EB90BDA4EA864E980DABEBCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5D010087CEC8537A5760FC9 /* Pods-Cafe NIBM.debug.xcconfig */,
+				3B7881B4302331288CFAA515 /* Pods-Cafe NIBM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560913C6261852210041545C /* Cafe NIBM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560913DB261852220041545C /* Build configuration list for PBXNativeTarget "Cafe NIBM" */;
+			buildPhases = (
+				121E6ECD852CAEDC37A45A8C /* [CP] Check Pods Manifest.lock */,
+				560913C3261852210041545C /* Sources */,
+				560913C4261852210041545C /* Frameworks */,
+				560913C5261852210041545C /* Resources */,
+				F468DAFB1AC1F2B4D030C5F2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cafe NIBM";
+			productName = "Cafe NIBM";
+			productReference = 560913C7261852210041545C /* Cafe NIBM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560913BF261852210041545C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Heshan;
+				TargetAttributes = {
+					560913C6261852210041545C = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 560913C2261852210041545C /* Build configuration list for PBXProject "Cafe NIBM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 560913BE261852210041545C;
+			productRefGroup = 560913C8261852210041545C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560913C6261852210041545C /* Cafe NIBM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560913C5261852210041545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5678FC5326217F8F00D9023B /* Main.storyboard in Resources */,
+				5678FC562621819200D9023B /* GoogleService-Info.plist in Resources */,
+				567040EF2622C1C200EA84BA /* FoodTableViewCell.xib in Resources */,
+				560913D7261852220041545C /* LaunchScreen.storyboard in Resources */,
+				560913D4261852220041545C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121E6ECD852CAEDC37A45A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cafe NIBM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F468DAFB1AC1F2B4D030C5F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cafe NIBM/Pods-Cafe NIBM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cafe NIBM/Pods-Cafe NIBM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cafe NIBM/Pods-Cafe NIBM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560913C3261852210041545C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5678FC5A2621857E00D9023B /* Entity.swift in Sources */,
+				5678FC582621824400D9023B /* SignInViewController.swift in Sources */,
+				56FD00032621B85C00380457 /* FoodViewController.swift in Sources */,
+				56FD00012621AEF300380457 /* SessionManager.swift in Sources */,
+				567040F12623606800EA84BA /* InputValidator.swift in Sources */,
+				560913CB261852210041545C /* AppDelegate.swift in Sources */,
+				567040EE2622C1C200EA84BA /* FoodTableViewCell.swift in Sources */,
+				560913CD261852210041545C /* SceneDelegate.swift in Sources */,
+				56FDFFFE26219C7000380457 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		560913D5261852220041545C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				560913D6261852220041545C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		560913D9261852220041545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		560913DA261852220041545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560913DC261852220041545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D010087CEC8537A5760FC9 /* Pods-Cafe NIBM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cafe NIBM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heshan.Cafe-NIBM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560913DD261852220041545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7881B4302331288CFAA515 /* Pods-Cafe NIBM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cafe NIBM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heshan.Cafe-NIBM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560913C2261852210041545C /* Build configuration list for PBXProject "Cafe NIBM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560913D9261852220041545C /* Debug */,
+				560913DA261852220041545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560913DB261852220041545C /* Build configuration list for PBXNativeTarget "Cafe NIBM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560913DC261852220041545C /* Debug */,
+				560913DD261852220041545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 560913BF261852210041545C /* Project object */;
+}
