@@ -28,6 +28,7 @@ class SessionManager{
             userEmail: UserDefaults.standard.string(forKey: "USER_EMAIL") ?? "",
             userPassword: "",
             userPhone: UserDefaults.standard.string(forKey: "USER_PHONE") ?? "")
+        
         return user
     }
     

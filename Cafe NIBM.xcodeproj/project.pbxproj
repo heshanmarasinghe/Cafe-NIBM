@@ -12,6 +12,10 @@
 		560913CD261852210041545C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560913CC261852210041545C /* SceneDelegate.swift */; };
 		560913D4261852220041545C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560913D3261852220041545C /* Assets.xcassets */; };
 		560913D7261852220041545C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560913D5261852220041545C /* LaunchScreen.storyboard */; };
+		56193FB9262463DE0048474B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56193FB8262463DE0048474B /* AccountViewController.swift */; };
+		56193FBB262466680048474B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56193FBA262466680048474B /* LaunchViewController.swift */; };
+		56193FBD262473860048474B /* FoodItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56193FBC262473860048474B /* FoodItemViewController.swift */; };
+		56193FBF262479230048474B /* CartHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56193FBE262479230048474B /* CartHandler.swift */; };
 		567040EE2622C1C200EA84BA /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567040EC2622C1C200EA84BA /* FoodTableViewCell.swift */; };
 		567040EF2622C1C200EA84BA /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 567040ED2622C1C200EA84BA /* FoodTableViewCell.xib */; };
 		567040F12623606800EA84BA /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567040F02623606800EA84BA /* InputValidator.swift */; };
@@ -19,6 +23,10 @@
 		5678FC562621819200D9023B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5678FC552621819200D9023B /* GoogleService-Info.plist */; };
 		5678FC582621824400D9023B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678FC572621824400D9023B /* SignInViewController.swift */; };
 		5678FC5A2621857E00D9023B /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678FC592621857E00D9023B /* Entity.swift */; };
+		56B2356626247D5400DA7E86 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2356526247D5400DA7E86 /* CartViewController.swift */; };
+		56B2356B26248A2600DA7E86 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2356926248A2600DA7E86 /* OrderTableViewCell.swift */; };
+		56B2356C26248A2600DA7E86 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B2356A26248A2600DA7E86 /* OrderTableViewCell.xib */; };
+		56B2356E2624AE4300DA7E86 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B2356D2624AE4300DA7E86 /* OrdersViewController.swift */; };
 		56FD00012621AEF300380457 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD00002621AEF300380457 /* SessionManager.swift */; };
 		56FD00032621B85C00380457 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD00022621B85C00380457 /* FoodViewController.swift */; };
 		56FDFFFE26219C7000380457 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FDFFFD26219C7000380457 /* SignUpViewController.swift */; };
@@ -32,6 +40,10 @@
 		560913D3261852220041545C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560913D6261852220041545C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560913D8261852220041545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56193FB8262463DE0048474B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		56193FBA262466680048474B /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		56193FBC262473860048474B /* FoodItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemViewController.swift; sourceTree = "<group>"; };
+		56193FBE262479230048474B /* CartHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartHandler.swift; sourceTree = "<group>"; };
 		567040EC2622C1C200EA84BA /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		567040ED2622C1C200EA84BA /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
 		567040F02623606800EA84BA /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
@@ -39,6 +51,10 @@
 		5678FC552621819200D9023B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5678FC572621824400D9023B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		5678FC592621857E00D9023B /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		56B2356526247D5400DA7E86 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		56B2356926248A2600DA7E86 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		56B2356A26248A2600DA7E86 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		56B2356D2624AE4300DA7E86 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		56FD00002621AEF300380457 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		56FD00022621B85C00380457 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		56FDFFFD26219C7000380457 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +132,11 @@
 				5678FC572621824400D9023B /* SignInViewController.swift */,
 				56FDFFFD26219C7000380457 /* SignUpViewController.swift */,
 				56FD00022621B85C00380457 /* FoodViewController.swift */,
+				56193FB8262463DE0048474B /* AccountViewController.swift */,
+				56193FBA262466680048474B /* LaunchViewController.swift */,
+				56193FBC262473860048474B /* FoodItemViewController.swift */,
+				56B2356526247D5400DA7E86 /* CartViewController.swift */,
+				56B2356D2624AE4300DA7E86 /* OrdersViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -133,6 +154,8 @@
 			children = (
 				567040EC2622C1C200EA84BA /* FoodTableViewCell.swift */,
 				567040ED2622C1C200EA84BA /* FoodTableViewCell.xib */,
+				56B2356926248A2600DA7E86 /* OrderTableViewCell.swift */,
+				56B2356A26248A2600DA7E86 /* OrderTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -142,6 +165,7 @@
 			children = (
 				56FD00002621AEF300380457 /* SessionManager.swift */,
 				567040F02623606800EA84BA /* InputValidator.swift */,
+				56193FBE262479230048474B /* CartHandler.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -215,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B2356C26248A2600DA7E86 /* OrderTableViewCell.xib in Resources */,
 				5678FC5326217F8F00D9023B /* Main.storyboard in Resources */,
 				5678FC562621819200D9023B /* GoogleService-Info.plist in Resources */,
 				567040EF2622C1C200EA84BA /* FoodTableViewCell.xib in Resources */,
@@ -274,11 +299,18 @@
 			files = (
 				5678FC5A2621857E00D9023B /* Entity.swift in Sources */,
 				5678FC582621824400D9023B /* SignInViewController.swift in Sources */,
+				56B2356B26248A2600DA7E86 /* OrderTableViewCell.swift in Sources */,
+				56B2356E2624AE4300DA7E86 /* OrdersViewController.swift in Sources */,
+				56B2356626247D5400DA7E86 /* CartViewController.swift in Sources */,
 				56FD00032621B85C00380457 /* FoodViewController.swift in Sources */,
 				56FD00012621AEF300380457 /* SessionManager.swift in Sources */,
+				56193FBF262479230048474B /* CartHandler.swift in Sources */,
 				567040F12623606800EA84BA /* InputValidator.swift in Sources */,
 				560913CB261852210041545C /* AppDelegate.swift in Sources */,
+				56193FB9262463DE0048474B /* AccountViewController.swift in Sources */,
 				567040EE2622C1C200EA84BA /* FoodTableViewCell.swift in Sources */,
+				56193FBB262466680048474B /* LaunchViewController.swift in Sources */,
+				56193FBD262473860048474B /* FoodItemViewController.swift in Sources */,
 				560913CD261852210041545C /* SceneDelegate.swift in Sources */,
 				56FDFFFE26219C7000380457 /* SignUpViewController.swift in Sources */,
 			);

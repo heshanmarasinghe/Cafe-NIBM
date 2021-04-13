@@ -25,12 +25,12 @@ class SignInViewController: UIViewController {
     
     @IBAction func onSIgnInPressed(_ sender: UIButton) {
         
-        if InputValidator.isValidEmail(email: txtEmail.text ?? ""){
+        if !InputValidator.isValidEmail(email: txtEmail.text ?? ""){
             Loaf("Invalid Email Address!!", state: .error, sender: self).show()
             return
         }
         
-        if InputValidator.isValidPassword(pass: txtpassword.text ?? "",
+        if !InputValidator.isValidPassword(pass: txtpassword.text ?? "",
                                           minLength: 6, maxLength: 50){
             Loaf("Invalid Password!!", state: .error, sender: self).show()
             return
@@ -46,13 +46,14 @@ class SignInViewController: UIViewController {
 
             if let err = error{
                 print(err.localizedDescription)
+                Loaf("Invalid UserName or Password!!", state: .error, sender: self).show()
                 return
             }
             
             if let email = authResult?.user.email{
                 self.getUserData(email: email)
             } else {
-                Loaf("No User Found!!", state: .error, sender: self).show()
+                Loaf("No User Email Found!!", state: .error, sender: self).show()
             }
             
         }

@@ -25,3 +25,9 @@ struct FoodItem {
     var category: String
 }
 
+struct Order{
+    var orderId: String = ""
+    var orderStatus: String = ""
+    var orderTotal: Double = 0
+}
+

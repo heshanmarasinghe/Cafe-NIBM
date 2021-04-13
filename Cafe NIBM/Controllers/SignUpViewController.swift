@@ -36,18 +36,21 @@ class SignUpViewController: UIViewController {
             return
         }
     
-        if InputValidator.isValidEmail(email: txtemail.text ?? ""){
+        if !InputValidator.isValidEmail(email: txtemail.text ?? ""){
             Loaf("Invalid Email Address!!", state: .error, sender: self).show()
             return
         }
         
-        if InputValidator.isValidPassword(pass: txtpassword.text ?? "",
+        if !InputValidator.isValidPassword(pass: txtpassword.text ?? "",
                                           minLength: 6, maxLength: 50){
             Loaf("Invalid Password!!", state: .error, sender: self).show()
             return
         }
         
-        //add validations for other phone
+        if !InputValidator.isValidMobileNo(txtphone.text ?? ""){
+            Loaf("Invalid Phone Number!!", state: .error, sender: self).show()
+            return
+        }
 
         let user = User(userName: txtname.text ?? "", userEmail: txtemail.text ?? "", userPassword: txtpassword.text ?? "", userPhone: txtphone.text ?? "")
         
@@ -68,7 +71,7 @@ class SignUpViewController: UIViewController {
         }
     }
     
-    
+    //Save users to the database
     func saveUserData(user: User){
         
         let userData = [
